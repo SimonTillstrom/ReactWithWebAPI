@@ -1,0 +1,39 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+td,
+body,
+p{
+  color: rgb(251, 140, 177);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+li{
+  color: darkblue;
+  background-color:rgb(216, 250, 63) ;
+}
+ol{
+  background-color: orchid;
+}
+body{
+  background-color: seagreen;
+}
+
+  .score-table{
+    width: 100%;
+  }
+@media (max-width: 600px) {
+  .score-table{
+    width: 40%;
+  }
+}
